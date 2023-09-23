@@ -106,19 +106,6 @@
     <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.colVis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-       $('#myTable').DataTable( {
-    buttons: [
-        {
-            extend: 'copy',
-            text: 'Copy current page',
-            exportOptions: {
-                modifier: {
-                    page: 'current'
-                }
-            }
-        }
-    ]
-} );
         function deleteEmployee(id) {
             const swalWithBootstrapButtons = Swal.mixin({
                 customClass: {
