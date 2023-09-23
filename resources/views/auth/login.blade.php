@@ -1,5 +1,5 @@
 <x-laravel-ui-adminlte::adminlte-layout>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <body class="hold-transition login-page">
         <div class="login-box">
             <div class="login-logo">
@@ -10,7 +10,7 @@
             <!-- /.login-box-body -->
             <div class="card">
                 <div class="card-body login-card-body">
-                    <p class="login-box-msg">Sign in to start your session</p>
+                    <p class="login-box-msg">Meuilleur Platforme pour Gestionner vos employees</p>
 
                     <form method="post" action="{{ url('/login') }}">
                         @csrf
